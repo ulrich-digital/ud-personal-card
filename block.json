@@ -1,0 +1,66 @@
+{
+    "apiVersion": 2,
+    "name": "ud/personal-card",
+    "title": "Personal Card",
+    "category": "widgets",
+    "icon": "id",
+    "description": "Zeigt eine Personal-Visitenkarte mit Bild und Kontaktinformationen.",
+    "editorStyle": "file:./build/editor-style.css",
+    "style": "file:./build/frontend-style.css",
+    "editorScript": "file:./build/editor-script.js",
+    "script": "file:./build/frontend-script.js",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "textColor": {
+            "type": "string"
+        },
+        "backgroundColor": {
+            "type": "string"
+        },
+        "layout": {
+            "type": "string",
+            "default": "small"
+        },
+        "showImage": {
+            "type": "boolean",
+            "default": "true"
+        },
+        "imageId": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string",
+            "default": ""
+        },
+        "role": {
+            "type": "string",
+            "default": ""
+        },
+        "location": {
+            "type": "string",
+            "default": ""
+        },
+        "email": {
+            "type": "string",
+            "default": ""
+        },
+        "mobile": {
+            "type": "string",
+            "default": ""
+        },
+        "phone": {
+            "type": "string",
+            "default": ""
+        },
+        "imageUrl": {
+            "type": "string",
+            "default": ""
+        },
+        "tags": {
+            "type": "string",
+            "default": "[]"
+        }
+    }
+}

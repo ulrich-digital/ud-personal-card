@@ -1,0 +1,30 @@
+.ud-personal-card {
+  margin: 1em 0;
+
+  .ud-personal-image-wrapper {
+    position: relative;
+    height: 100%;
+
+    .ud-image-actions {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 0.5rem;
+      display: flex;
+      gap: 0.5rem;
+
+      button {
+        font-size: 0.85rem;
+        background: rgba(255, 255, 255, 1);
+        border: 0;
+        cursor: pointer;
+      }
+
+      .components-button {
+        &.is-secondary:hover,
+        &.is-destructive.is-secondary:hover {
+          background: #fff;
+        }
+      }
+    }
+  }
+}

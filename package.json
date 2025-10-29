@@ -1,0 +1,18 @@
+{
+  "name": "ud-personal-card-block",
+  "version": "1.0.0",
+  "description": "Ein Block zur Darstellung von Personal-Karten.",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack --watch --config webpack.config.js"
+  },
+  "author": "ulrich.digital",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.15.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^14.20.0",
+    "@wordpress/icons": "^10.25.0"
+  }
+}
