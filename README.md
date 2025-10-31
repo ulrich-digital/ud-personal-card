@@ -3,7 +3,7 @@
 Ein flexibler Block zur Darstellung von **Personenkarten** mit Bild, Name, Funktion und optionalen Zusatzinformationen.
 Er eignet sich für Teamseiten, Lehrpersonenverzeichnisse oder Vorstandsübersichten und kann mit Filter-Containern kombiniert werden.
 
----
+
 
 ## Funktionen
 
@@ -16,21 +16,16 @@ Er eignet sich für Teamseiten, Lehrpersonenverzeichnisse oder Vorstandsübersic
 - Unterstützung für Full Site Editing (FSE)
 - Schnelles Laden durch serverseitiges Rendering
 
----
 
-## Editor-Ansicht
+
+## Screenshots
+![Frontend-Ansicht](./assets/frontend-view.png)
+*Die Personal Card im Frontend*
 
 ![Editor-Ansicht](./assets/editor-view.png)
-*Abbildung: Editor-Oberfläche mit Eingabefeldern.*
+*Editor-Oberfläche mit Eingabefeldern.*
 
----
 
-## Frontend-Ansicht
-
-![Frontend-Ansicht](./assets/frontend-view.png)
-*Abbildung: Ansicht im Frontend*
-
----
 
 ## Technische Details
 
@@ -45,7 +40,7 @@ Er eignet sich für Teamseiten, Lehrpersonenverzeichnisse oder Vorstandsübersic
   - `data-tags`
   - `data-tags-slug`
 
----
+
 
 ## Installation
 
@@ -54,24 +49,19 @@ Er eignet sich für Teamseiten, Lehrpersonenverzeichnisse oder Vorstandsübersic
 3. Im Block-Editor den Block **„UD Personal Card“** einfügen und Inhalte hinzufügen
 4. Optional mit dem **Filter-Container** kombinieren, um dynamische Filterung zu aktivieren
 
----
 
-## Anforderungen
 
-- WordPress ≥ 6.7
-- PHP ≥ 7.4
-- Aktiver Block-Editor (Gutenberg oder FSE-Theme)
 
----
+
 
 ## Autor
 
-**ulrich.digital gmbh**
-[https://ulrich.digital](https://ulrich.digital)
+[ulrich.digital gmbh](https://ulrich.digital)
 
----
 
 ## Lizenz
 
 GPL v2 or later
 [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+
+
